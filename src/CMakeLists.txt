@@ -1,0 +1,10 @@
+add_executable(
+        archiver
+        archiver.cpp
+        file_open.cpp
+        bit_stream.cpp
+        command_parse.cpp
+        decoder.cpp
+        encoder.cpp
+        trie_node.cpp
+)
